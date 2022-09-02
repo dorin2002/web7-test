@@ -10,7 +10,7 @@ header .noscroll {
   left: 0;
   overflow: hidden;
 }
-header .navbar {
+header .navbar { 
   position: static;
   padding-left: 65px;
 }

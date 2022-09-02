@@ -10,7 +10,7 @@ $(document).ready(function(){
 			$('header .sub_sub-items .block-menu').removeClass("active");
 			$('header .sub_nav .sub-item').removeClass("active");
 		}
-    }
+    } 
 
 	$('header .sub_nav .sub-item').hover(function() {
 		subMenuShow(this);
