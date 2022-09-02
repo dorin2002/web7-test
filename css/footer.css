@@ -1,0 +1,199 @@
+footer {
+  background-color: #f3f6fa;
+  padding: 50px;
+}
+@media only screen and (max-width: 489px) {
+  footer {
+    padding: 30px 20px;
+  }
+  footer .navbar-brand img {
+    width: 140px;
+  }
+}
+@media only screen and (max-width: 489px) {
+  footer .main-content {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  footer .main-content .f-left {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 489px) {
+  footer .main-content .f-left {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin-bottom: 44px;
+  }
+}
+@media only screen and (max-width: 489px) {
+  footer .main-content .f-left .adress {
+    width: 55%;
+  }
+}
+footer .main-content .f-left .adress .title {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+}
+@media only screen and (max-width: 1100px) {
+  footer .main-content .f-left .adress .title {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 489px) {
+  footer .main-content .f-left .adress .title {
+    line-height: 26px;
+  }
+}
+footer .main-content .f-left .adress .details {
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+  max-width: 80%;
+  padding-top: 0;
+  margin-bottom: 0px;
+}
+@media only screen and (max-width: 1100px) {
+  footer .main-content .f-left .adress .details {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 489px) {
+  footer .main-content .f-left .adress .details {
+    line-height: 20px;
+  }
+}
+@media only screen and (max-width: 489px) {
+  footer .main-content .f-left .contact {
+    width: auto;
+  }
+}
+footer .main-content .f-left .contact .mobile {
+  font-size: 20px;
+  color: #005096;
+  font-weight: 700;
+}
+footer .main-content .f-left .contact .email {
+  margin-bottom: 0px;
+}
+footer .main-content .f-left .pages .item:last-child {
+  margin-bottom: 0px;
+}
+@media only screen and (max-width: 769px) {
+  footer .main-content .f-right {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+footer .main-content .f-right .socials {
+  height: 100%;
+}
+@media only screen and (max-width: 489px) {
+  footer .main-content .f-right .socials {
+    height: auto;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+}
+footer .main-content .f-right .socials svg {
+  color: #7d96af;
+}
+footer .main-content .f-right .socials svg:first-child {
+  margin-right: 20px;
+}
+footer .main-content .f-right .register {
+  padding-left: 100px;
+}
+@media only screen and (max-width: 1100px) {
+  footer .main-content .f-right .register {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 489px) {
+  footer .main-content .f-right .register {
+    padding-left: 11px;
+    margin-top: 30px;
+  }
+}
+footer .main-content .f-right .register .heading {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000;
+  font-weight: 700;
+}
+footer .main-content .f-right .register .subheading {
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+footer .main-content .f-right .register .email {
+  width: 100%;
+  position: relative;
+}
+footer .main-content .f-right .register .email input {
+  background-color: #fff;
+  border: 0;
+  border-radius: 50px;
+  height: 50px;
+  padding: 10px 15px;
+  font-weight: 500;
+}
+footer .main-content .f-right .register .email input::-webkit-input-placeholder {
+  color: #7d96af;
+}
+footer .main-content .f-right .register .email input:-ms-input-placeholder {
+  color: #7d96af;
+}
+footer .main-content .f-right .register .email input::-ms-input-placeholder {
+  color: #7d96af;
+}
+footer .main-content .f-right .register .email input::placeholder {
+  color: #7d96af;
+}
+footer .main-content .f-right .register .email::after {
+  content: '';
+  background-image: url(../images/email.jpg);
+  background-size: cover;
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 16px;
+  width: 24px;
+  height: 20px;
+}
+footer .bottom-content {
+  padding-top: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #d0dae3;
+}
+footer .bottom-content span {
+  color: #000;
+  font-weight: 500;
+  margin-right: 20px;
+}
+footer .bottom-content a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #005096;
+}
+@media only screen and (max-width: 769px) {
+  footer .bottom-content a {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 489px) {
+  footer .bottom-content a {
+    display: block;
+    margin-top: 6px;
+  }
+}
